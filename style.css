@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, purple, orange);
+    flex-direction: column;
+}
+
+#form-data {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    width: 300px;
+}
+
+.form-data .form-input {
+    padding: 10px;
+}
+
+form input {
+    /* height: 30px; */
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.form-input p {
+    padding-top: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.form-button {
+    padding-top: 5px;
+}
+
+.form-login {
+    font-weight: bolder;
+    text-shadow: 2px solid black
+}
+
+/* quiz app  */
+
+.container {
+    border: 1px solid white;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.question1 {
+    display: flex;
+    padding: 10px;
+}
+
+
+/* Result page  */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
